@@ -44,25 +44,36 @@ Challenges within each section are meant to be solved in order.
 1.  Navigate to a nested subdirectory, like `path/to/project`
     - `cd path/to/project`
 1.  Navigate to your home directory
+    - `cd ~`
 1.  Navigate back to the previous directory
-
+    - `cd -`
 ### Variables
 
 1.  Print a sentence, like `Hello world`
+    - `echo 'Hello World'`
 1.  Print a variable value, like `$USER` or `$PATH`
+    - `echo $(date)`
 1.  Set a variable `NAME` equal to your first name, then print its value
+    - `NAME= $'Anthony'; echo $NAME`
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
+    - `FULL_NAME='Anthony Box' echo $FULL_NAME`
 1.  Print all environment variables (names and values)
+    - echo $PATH, echo $HOME, echo $TERM, echo $PS1, echo $MAIL, echo $TEMP
 1.  Make an alias named `hello` that prints `Hello world`
+    - `alias hello='Hello World'`
 1.  Make an alias named `gocode` that navigates to your code directory
+    - `vim ~/.bash_profile, alias gocode='cd ~/dev/makeschool/'`
 1.  Print all aliases (names and values)
+    - `cat ~/.bath_profile  or grep`
 
 ### Getting Help
 
 1.  Print what options a command accepts, like `bash` or `python`
+    - `--help`
 1.  Read the manual for a command, like `echo` or `ls`
+    - `man echo`
 1.  Print the file path to a command, like `bash` or `python`
-
+   
 ### Files
 
 1.  Navigate to the directory `Animals`
