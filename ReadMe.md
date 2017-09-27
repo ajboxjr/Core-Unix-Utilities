@@ -77,8 +77,11 @@ Challenges within each section are meant to be solved in order.
 ### Files
 
 1.  Navigate to the directory `Animals`
+    - `cd Animals`
 1.  Print the contents of the file `Cats.txt`
+    -`grep "^[a-zA-Z]" Cats.txt; cat Cats.txt`
 1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
+    - `grep "^[a-zA-Z]" Cats.txt Dogs.txt; cat Cats.txt Dogs.txt`
 1.  Count the words in the file `Cats.txt`
 1.  Count the words in all files with the extension `.txt`
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
